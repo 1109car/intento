@@ -96,3 +96,13 @@
     opacity: 0.5;
     transform: scale(1.2);
 }
+@media only screen and (max-width: 914px) {
+    #header{
+     grid-template-columns: auto;
+     
+     }
+    .contenedor_blanco_nav{
+     display: grid;
+    
+ }
+}

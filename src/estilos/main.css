@@ -75,6 +75,58 @@
     z-index: 3;
     overflow: hidden;
 }
+@media only screen and (max-width: 916px) {
+    .main_general{
+        width: 100%;
+        height: auto;
+     grid-template-columns: auto;
+        
+     }
+     .main_1{
+      display: flex;
+ }
+    .nom_principl{
+        position: relative;  
+        font-size: 20px;
+        width: 190%;  
+        height: 59%;
+        bottom: 180%;
+        right: 90%;
+        padding-left: 50%;
+    }
+    .saludo_contenedor{
+       
+       
+    }
+    .ti_present{
+        position: absolute;
+ 
+       
+    }
+    .parrafo_1{
+        position: absolute;
+        bottom: 270%;
+        right: 6%;
+    }
+    .parrafo_2{
+       top: -134%;
+    }
+    .main_2{
+        position: relative;
+        display: flex;
+        width: 100%;
+    
+        
+    }
+    body{
+        border: solid red 4px;
+        position: absolute;
+        width: 322px;
+        margin: 0;
+        padding: 0;
+    }
+    
 
+}
 
 
